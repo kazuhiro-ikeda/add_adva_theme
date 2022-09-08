@@ -1,0 +1,167 @@
+@charset "utf-8";
+//works
+#page_works {
+	.contents {
+		padding: 90px 0 120px;
+
+		@media (max-width: $viewport) {
+		    padding: 15vw 0 20vw;
+		}
+
+		.inner_sec {
+		    width: 1024px;
+		    margin: 0 auto;
+
+		    @media (max-width: $viewport) {
+		        width: 88vw;
+		    }
+
+			.lead {
+			    font-size: 16px;
+			    line-height: 1.8;
+				margin: 0 0 30px;
+
+			    @media (max-width: $viewport) {
+			        font-size: 3.6vw;
+			    }
+			}
+
+			.box {
+				position: relative;
+				display: flex;
+				justify-content: space-between;
+				margin: 0 0 30px;
+				box-sizing: border-box;
+				padding: 60px 60px 60px;
+				background: #EDF2F8;
+
+				@media (max-width: $viewport) {
+				    display: block;
+				    justify-content: initial;
+					margin: 0 0 5vw;
+					padding: 10vw 6vw;
+				}
+
+				&:last-of-type {
+					margin: 0;
+				}
+
+				figure {
+					width: 488px;
+
+					@media (max-width: $viewport) {
+						width: 100%;
+					}
+				}
+
+				.in_box {
+					width: 380px;
+
+					@media (max-width: $viewport) {
+						width: 100%;
+						margin: 0 0 5vw;
+					}
+
+					.ttl {
+						color: #1F6BC8;
+						font-family: $noto-serif;
+						font-size: 24px;
+						line-height: 1.5;
+						letter-spacing: 2px;
+						margin: 0 0 20px;
+
+						@media (max-width: $viewport) {
+							font-size: 5vw;
+							margin: 0 0 3vw;
+						}
+					}
+
+					table {
+						border-top: 1px solid #C8CDD2;
+						width: 100%;
+						line-height: 1.5;
+						font-size: 14px;
+						margin: 0 0 20px;
+
+						@media (max-width: $viewport) {
+							font-size: 3.4vw;
+							margin: 0 0 3vw;
+						}
+
+						tr {
+							border-bottom: 1px solid #C8CDD2;
+
+							th {
+								width: 100px;
+								vertical-align: top;
+								background: #E7E9EB;
+								padding: 5px;
+
+								@media (max-width: $viewport) {
+									width: auto;
+									box-sizing: border-box;
+									padding: 2vw;
+								}
+							}
+
+							td {
+								padding: 5px 5px 5px 10px;
+
+								@media (max-width: $viewport) {
+									padding: 2vw;
+								}
+							}
+						}
+					}
+
+					.text {
+					    font-size: 16px;
+					    line-height: 1.5;
+
+					    @media (max-width: $viewport) {
+					        font-size: 3.6vw;
+					    }
+					}
+				}
+
+				&.n5 {
+					padding: 60px 120px 60px 60px;
+
+					@media (max-width: $viewport) {
+						padding: 10vw 6vw;
+					}
+
+					figure {
+						width: 240px;
+
+						@media (max-width: $viewport) {
+							width: 40vw;
+							margin: 0 auto;
+						}
+					}
+
+					.in_box {
+						width: 520px;
+
+						@media (max-width: $viewport) {
+							width: 100%;
+						}
+					}
+				}
+
+				.label {
+					width: 95px;
+					position: absolute;
+					right: 20px;
+					top: -20px;
+
+					@media (max-width: $viewport) {
+						width: 22vw;
+						right: -5vw;
+						top: -3vw;
+					}
+				}
+			}
+		}
+	}
+}

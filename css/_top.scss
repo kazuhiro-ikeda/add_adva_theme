@@ -1,0 +1,495 @@
+@charset "utf-8";
+#above-the-fold {
+	position: relative;
+
+	@media (max-width: $viewport) {
+		padding: 0 0 5vw;
+	}
+
+	.btn_main {
+		display: block;
+		width: 237px;
+		height: 130px;
+		margin: 0 auto;
+		background-image: url("../images/top/main_btn_on.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+
+		@media (max-width: $viewport) {
+			display: none;
+		}
+
+		img {
+			display: block;
+			width: 237px;
+			height: 130px;
+			transition: opacity .3s;
+		}
+
+		&:hover {
+			img {
+				opacity: 0;
+			}
+		}
+	}
+
+	.btn_main_s {
+		display: none;
+
+		@media (max-width: $viewport) {
+			display: block;
+			width: 56vw;
+			position: absolute;
+			right: 0;
+			bottom: 0;
+		}
+	}
+
+	.box {
+		width: 6%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		right: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		box-sizing: border-box;
+		padding: 140px 0 0;
+
+		@media (max-width: $viewport) {
+			width: 100%;
+			height: 8.6vw;
+			flex-direction: row;
+			justify-content: flex-end;
+			align-items: center;
+			top: initial;
+			bottom: 31vw;
+			padding: 0 2vw 0 0;
+		}
+
+		a {
+			display: block;
+			width: 36px;
+			margin: 0 0 10px;
+			transition: opacity .3s;
+
+			@media (max-width: $viewport) {
+				width: 8.6vw;
+				margin: 0 1vw 0;
+			}
+
+			&:hover {
+				opacity: .6;
+
+				@media (max-width: $viewport) {
+					opacity: 1;
+				}
+			}
+		}
+
+		.copyright {
+			width: 16px;
+
+			@media (max-width: $viewport) {
+				display: none;
+			}
+		}
+	}
+
+	.message-box {
+		width: 1024px;
+		margin: auto;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 7%;
+
+		@media (max-width: $viewport) {
+			width: 88vw;
+			bottom: 50vw;
+		}
+
+		.tagline {
+			color: white;
+			font-family: $noto-serif-semi;
+			font-size: 44px;
+			line-height: 1.5;
+			letter-spacing: 4px;
+			margin: 0 0 20px;
+
+			@media (max-width: $viewport) {
+				font-size: 7.8vw;
+				line-height: 1.5;
+				letter-spacing: .5vw;
+				margin: 0 0 3vw;
+			}
+		}
+
+		.text {
+			color: white;
+			font-size: 18px;
+			line-height: 1.7;
+			letter-spacing: 1px;
+
+			@media (max-width: $viewport) {
+				font-size: 3.7vw;
+			}
+		}
+	}
+}
+
+#top_nav {
+	background-image: url("../images/top/nav_bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding: 120px 0 0;
+
+	@media (max-width: $viewport) {
+		background-image: url("../images/top/nav_bg_s.jpg");
+		padding: 15vw 0 0;
+	}
+
+	.bar {
+		width: 2px;
+		margin: 0 auto 30px;
+
+		@media (max-width: $viewport) {
+			margin: 0 auto 5vw;
+		}
+	}
+
+	.site {
+		color: #1F6BC8;
+		font-family: $noto-serif;
+		font-size: 40px;
+		letter-spacing: 5px;
+		line-height: 1.5;
+		text-align: center;
+		margin: 0 0 80px;
+
+		@media (max-width: $viewport) {
+			font-size: 6.8vw;
+			margin: 0 0 10vw;
+		}
+	}
+
+	.first {
+		width: 96%;
+		padding: 0 0 120px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+
+		@media (max-width: $viewport) {
+			width: 88vw;
+			padding: 0 0 15vw;
+			margin: 0 auto;
+			display: block;
+			justify-content: initial;
+		}
+
+		.box {
+			width: 32.4%;
+			height: 386px;
+			background-size: cover;
+			background-position: center center;
+			box-sizing: border-box;
+			display: flex;
+			justify-content: center;
+			padding: 80px 0 0;
+
+			@media (max-width: $viewport) {
+				width: 100%;
+				height: auto;
+				padding: 18vw 0 12vw;
+				margin: 0 0 3vw;
+			}
+
+			&.n1 {
+				background-image: url("../images/top/nav_1.jpg");
+			}
+
+			&.n2 {
+				background-image: url("../images/top/nav_2.jpg");
+			}
+
+			&.n3 {
+				background-image: url("../images/top/nav_3.jpg");
+			}
+
+			.in_box {
+				width: 290px;
+
+				@media (max-width: $viewport) {
+					width: 66vw;
+				}
+
+				.title {
+					color: white;
+					font-family: $noto-serif;
+					font-size: 38px;
+					text-align: center;
+					letter-spacing: 3px;
+					margin: 0 0 30px;
+
+					@media (max-width: $viewport) {
+						font-size: 8vw;
+						margin: 0 0 5vw;
+					}
+				}
+
+				.text {
+					color: white;
+					font-size: 16px;
+					line-height: 1.8;
+					margin: 0 0 30px;
+
+					@media (max-width: $viewport) {
+						font-size: 3.6vw;
+						margin: 0 0 6vw;
+					}
+				}
+			}
+		}
+	}
+
+	.second {
+		display: flex;
+		padding: 0;
+		margin: 0;
+		position: relative;
+
+		@media (max-width: $viewport) {
+			display: block;
+		}
+
+		.box {
+			width: 50%;
+			height: 710px;
+			box-sizing: border-box;
+			padding: 100px 0 0;
+			position: relative;
+			display: flex;
+			justify-content: center;
+
+			@media (max-width: $viewport) {
+				width: 100%;
+				height: auto;
+			}
+
+			&.n1 {
+				background: linear-gradient(45deg, #8691a5, #d6e0e7);
+
+				@media (max-width: $viewport) {
+					padding: 15vw 0 20vw;
+				}
+
+				.inner_box {
+					@media (max-width: $viewport) {
+						padding: 40vw 6vw 6vw;
+					}
+				}
+
+				.screen {
+					background-image: url("../images/top/product.jpg");
+					background-size: 410px;
+					background-position: left top;
+
+					@media (max-width: $viewport) {
+						background-size: 60vw;
+					}
+				}
+			}
+
+			&.n2 {
+				background: linear-gradient(45deg, #5b94d3, #6cabe1, #7ac1ee);
+
+				@media (max-width: $viewport) {
+					padding: 15vw 0 10vw;
+				}
+
+				.inner_box {
+					@media (max-width: $viewport) {
+						padding: 34vw 6vw 6vw;
+					}
+				}
+
+				.screen {
+					background-image: url("../images/top/recruit.jpg");
+					background-size: 540px;
+					background-position: left top;
+
+					@media (max-width: $viewport) {
+						background-size: 75vw;
+					}
+				}
+			}
+
+			.screen {
+				width: 100%;
+				height: 284px;
+				position: absolute;
+				top: -40px;
+				left: 0;
+				background-repeat: no-repeat;
+
+				@media (max-width: $viewport) {
+					height: 42vw;
+				}
+			}
+
+			.inner_box {
+				width: 80%;
+				height: 540px;
+				background: #EDF2F8;
+				box-sizing: border-box;
+				padding: 230px 0 0;
+				position: relative;
+
+				@media (max-width: $viewport) {
+					width: 88vw;
+					height: auto;
+				}
+
+				.title {
+					color: #1F6BC8;
+					font-family: $noto-serif;
+					font-size: 38px;
+					text-align: center;
+					letter-spacing: 3px;
+					margin: 0 0 30px;
+
+					@media (max-width: $viewport) {
+						font-size: 8vw;
+						margin: 0 0 5vw;
+					}
+				}
+
+				.text {
+					width: 420px;
+				    font-size: 16px;
+				    line-height: 1.8;
+					margin: 0 auto 30px;
+
+				    @media (max-width: $viewport) {
+						width: 100%;
+				        font-size: 3.6vw;
+						margin: 0 auto 5vw;
+				    }
+				}
+
+				.order {
+					width: 81px;
+					position: absolute;
+					right: 30px;
+					top: -30px;
+
+					@media (max-width: $viewport) {
+						width: 17.6vw;
+						right: 4vw;
+						top: -6vw;
+					}
+				}
+
+				.product {
+					width: 180px;
+					position: absolute;
+					left: 100px;
+					top: 170px;
+
+					@media (max-width: $viewport) {
+						width: 42vw;
+						left: 6vw;
+						top: 24vw;
+					}
+				}
+			}
+
+			.flag {
+				width: 75px;
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: 190px;
+				margin: auto;
+
+				@media (max-width: $viewport) {
+					width: 16vw;
+					top: 17vw;
+				}
+			}
+
+			.balloon {
+				width: 176px;
+				position: absolute;
+				right: calc((5%));
+				top: 210px;
+
+				@media (max-width: $viewport) {
+					width: 42vw;
+					right: 0;
+					top: 14vw;
+				}
+			}
+		}
+	}
+
+	.btn_grad {
+		width: 280px;
+		height: 60px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 20px 0;
+		background: $grad_blue_dark;
+		transition: all .3s;
+		box-sizing: border-box;
+
+		@media all and (-ms-high-contrast: none) {
+			padding: 6px 20px 0;
+		}
+
+		@media (max-width: $viewport) {
+			width: 100%;
+			height: 14vw;
+			padding: 0 4vw 0 6vw;
+		}
+
+		&:hover {
+			background: $grad_dark;
+		}
+
+		.in_text {
+			color: white;
+			font-size: 16px;
+			font-weight: bold;
+
+			@media (max-width: $viewport) {
+				font-size: 3.6vw;
+			}
+		}
+
+		&::after {
+			content: "";
+			display: block;
+			width: 32px;
+			height: 32px;
+			background-image: url("../images/common/btn_arrow.png");
+			background-size: 100%;
+			background-repeat: no-repeat;
+
+			@media (max-width: $viewport) {
+				width: 8vw;
+				height: 8vw;
+			}
+		}
+
+	}
+}
