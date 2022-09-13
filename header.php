@@ -5,7 +5,7 @@
 <div class="nav_drawer">
 	<div class="drawer_bg"></div>
 	<div class="inner">
-		<a href="<?php echo home_url(); ?>/" class="logo">株式会社 西村工業</a>
+		<a href="<?php echo home_url(); ?>/" class="logo">ロゴ</a>
 	</div>
 	<button type="button" class="drawer_button menu-trigger">
 		<span></span>
