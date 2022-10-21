@@ -516,9 +516,6 @@ header.normal.fixed #global .global-items li a {
   }
   .nav_drawer .logo {
     display: block;
-    color: white;
-    font-family: "noto-serif-semi", serif;
-    font-size: 5vw;
     margin: 5.5vw 0 0 3vw;
   }
 }
@@ -3029,9 +3026,6 @@ contact
     font-size: 7vw;
     margin: 0 0 8vw;
   }
-}
-#contact .ttl_page_form.serif {
-  font-family: "noto-serif-semi", serif;
 }
 
 #page_privacy-policy {
