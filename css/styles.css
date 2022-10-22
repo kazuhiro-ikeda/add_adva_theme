@@ -141,7 +141,6 @@ body {
   -webkit-font-smoothing: subpixel-antialiased;
   -webkit-text-size-adjust: 100%;
   -ms-overflow-style: none;
-  scrollbar-width: none;
 }
 @media all and (-ms-high-contrast: none) {
   body {
@@ -212,13 +211,13 @@ p {
 }
 
 .anc {
-  margin-top: 0px;
-  padding-top: 0px;
+  margin-top: 0;
+  padding-top: 0;
 }
 @media (max-width: 750px) {
   .anc {
-    margin-top: 0vw;
-    padding-top: 0vw;
+    margin-top: 0;
+    padding-top: 0;
   }
 }
 
@@ -280,7 +279,7 @@ a.page-numbers {
   color: white;
   display: inline-block;
   margin-right: 15px;
-  padding: 6px 6px 6px;
+  padding: 6px 6px 9px;
 }
 
 .nav-links .current {
