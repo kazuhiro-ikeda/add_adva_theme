@@ -7,7 +7,6 @@ $color_2: #F9704A;
 	display: block;
 	width: 100%;
 	color: #1F6BC8;
-	font-family: $noto-sans-bold;
 	font-size: 36px;
 	line-height: 1.5;
 	text-align: center;
@@ -62,7 +61,6 @@ $color_2: #F9704A;
 		box-shadow: none;
 		padding: 6vw 6vw 16vw;
 		margin: 0;
-		background-image: url("../images/case/border_s.png");
 		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: left bottom;
@@ -798,7 +796,7 @@ $color_2: #F9704A;
 				margin: 0 auto 31px;
 
 				@media (max-width: $viewport) {
-					width: 100％;
+					width: 100%;
 					margin: 0 auto 10vw;
 				}
 

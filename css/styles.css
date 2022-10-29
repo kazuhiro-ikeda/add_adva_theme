@@ -692,7 +692,6 @@ header.normal.fixed #global .global-items li a {
   display: block;
   width: 100%;
   color: #1F6BC8;
-  font-family: "noto-sans-bold", sans-serif;
   font-size: 36px;
   line-height: 1.5;
   text-align: center;
@@ -749,7 +748,6 @@ header.normal.fixed #global .global-items li a {
     box-shadow: none;
     padding: 6vw 6vw 16vw;
     margin: 0;
-    background-image: url("../images/case/border_s.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: left bottom;
@@ -1475,7 +1473,7 @@ header.normal.fixed #global .global-items li a {
 }
 @media (max-width: 750px) {
   #case .wrapper .contents .display_tel {
-    width: 100％;
+    width: 100%;
     margin: 0 auto 10vw;
   }
 }
@@ -2893,7 +2891,6 @@ contact
   text-align: center;
   margin: 0 0 50px;
   color: #1F6BC8;
-  font-family: "noto-sans-bold", sans-serif;
   font-size: 38px;
   letter-spacing: 3px;
 }
