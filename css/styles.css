@@ -745,12 +745,9 @@ header.normal.fixed #global .global-items li a {
 }
 @media (max-width: 750px) {
   .box_case {
-    box-shadow: none;
-    padding: 6vw 6vw 16vw;
-    margin: 0;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: left bottom;
+    box-shadow: 0 1vw 3vw rgba(0, 0, 0, 0.2);
+    padding: 6vw 6vw 10vw;
+    margin: 0 0 2.5vw;
   }
 }
 .box_case:last-of-type {
@@ -3005,7 +3002,7 @@ contact
   line-height: 1.5;
   margin: 50px 0 24px;
   padding: 18px 20px;
-  background: var(--main-color);
+  background: orange;
   color: #fff;
 }
 @media (max-width: 750px) {
@@ -3020,8 +3017,8 @@ contact
   font-weight: bold;
   margin: 50px 0 30px;
   line-height: 1.5;
-  border-top: 2px solid var(--main-color);
-  border-bottom: 2px solid var(--main-color);
+  border-top: 2px solid orange;
+  border-bottom: 2px solid orange;
   padding: 16px 0;
 }
 @media (max-width: 750px) {
@@ -3037,7 +3034,7 @@ contact
   font-weight: bold;
   margin: 50px 0 30px;
   line-height: 1.5;
-  border-bottom: 2px solid var(--main-color);
+  border-bottom: 2px solid orange;
   padding: 0 0 0.2px;
 }
 @media (max-width: 750px) {
@@ -3085,7 +3082,7 @@ contact
 }
 .single-content p a {
   text-decoration: underline;
-  color: var(--main-color);
+  color: orange;
 }
 .single-content .full {
   margin: 2em 0;
@@ -3145,7 +3142,7 @@ contact
   font-size: 18px;
   font-weight: bold;
   margin-right: 10px;
-  color: var(--main-color);
+  color: orange;
 }
 @media (max-width: 750px) {
   .single-content ul li:before {
@@ -3198,7 +3195,7 @@ contact
   color: white;
   text-align: center;
   border-radius: 50%;
-  background: var(--main-color);
+  background: orange;
 }
 @media (max-width: 750px) {
   .single-content ol li:before {
@@ -3226,7 +3223,7 @@ contact
   }
 }
 .single-content table th {
-  background: var(--main-color);
+  background: orange;
   color: #fff;
   font-weight: bold;
 }

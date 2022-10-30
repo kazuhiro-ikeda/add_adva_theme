@@ -58,12 +58,9 @@ $color_2: #F9704A;
 	background: white;
 
 	@media (max-width: $viewport) {
-		box-shadow: none;
-		padding: 6vw 6vw 16vw;
-		margin: 0;
-		background-size: 100%;
-		background-repeat: no-repeat;
-		background-position: left bottom;
+		box-shadow: 0 1vw 3vw rgba(0, 0, 0, 0.2);
+		padding: 6vw 6vw 10vw;
+		margin: 0 0 2.5vw;
 	}
 
 	&:last-of-type {

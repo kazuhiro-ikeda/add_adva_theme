@@ -112,7 +112,7 @@ add_filter('excerpt_more', 'new_excerpt_more');
 	add_filter( 'excerpt_more', 'new_excerpt_more' );*/
 
 //エディタのスタイル
-add_editor_style('editor-style.css');
+add_editor_style('editor-style.scss');
 
 // サイトIDタグ
 function diverge_site_id()
